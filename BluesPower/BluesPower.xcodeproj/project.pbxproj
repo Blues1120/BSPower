@@ -16,6 +16,7 @@
 		6FCD42CD1E04011400361ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCD42CB1E04011400361ED9 /* LaunchScreen.storyboard */; };
 		6FFDF1BF1E10AC7800A70FFB /* InKVAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF1BE1E10AC7800A70FFB /* InKVAViewController.swift */; };
 		6FFDF1C11E10AC8E00A70FFB /* InKWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDF1C01E10AC8E00A70FFB /* InKWViewController.swift */; };
+		81E046611EEEA95B001593E3 /* TEDVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E046601EEEA95B001593E3 /* TEDVC2.swift */; };
 		81E7623C1EEAD153000FEDFF /* TEDVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E7623B1EEAD153000FEDFF /* TEDVC1.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		6FCD42CE1E04011400361ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FFDF1BE1E10AC7800A70FFB /* InKVAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InKVAViewController.swift; sourceTree = "<group>"; };
 		6FFDF1C01E10AC8E00A70FFB /* InKWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InKWViewController.swift; sourceTree = "<group>"; };
+		81E046601EEEA95B001593E3 /* TEDVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEDVC2.swift; sourceTree = "<group>"; };
 		81E7623B1EEAD153000FEDFF /* TEDVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEDVC1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				81E7623B1EEAD153000FEDFF /* TEDVC1.swift */,
+				81E046601EEEA95B001593E3 /* TEDVC2.swift */,
 			);
 			name = TED;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				6FCD42C31E04011400361ED9 /* AppDelegate.swift in Sources */,
 				6FFDF1BF1E10AC7800A70FFB /* InKVAViewController.swift in Sources */,
 				6F2CFF971E0D4831005B0D87 /* KVAViewController.swift in Sources */,
+				81E046611EEEA95B001593E3 /* TEDVC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

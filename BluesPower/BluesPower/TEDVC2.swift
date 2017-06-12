@@ -1,36 +1,21 @@
 //
-//  TEDVC1.swift
+//  TEDVC2.swift
 //  BluesPower
 //
-//  Created by ios on 2017/6/9.
+//  Created by ios on 2017/6/12.
 //  Copyright © 2017年 Blues Lin. All rights reserved.
 //
 
 import UIKit
 
-class TEDVC1: UIViewController {
-
-    @IBAction func pushBtn1(_ sender: Any) {
-        
-        
-    }
-    @IBAction func pushBtn2(_ sender: UIButton) {
-        
-        let vc2=self.storyboard?.instantiateViewController(withIdentifier: "TEDVC2") as! TEDVC2
-        
-        switch sender.tag {
-        case 1:
-            vc2.indexVC=sender.tag
-            
-        case 2:
-            vc2.indexVC=sender.tag
-        default:
-            break
-        }
-        self.navigationController?.pushViewController(vc2, animated: true)
-        
-    }
+class TEDVC2: UIViewController {
+    var indexVC=0
     
+    
+    @IBOutlet weak var txtField1: UITextField!
+    @IBOutlet weak var txtField2: UITextField!
+    
+    var txtFieldsTitle=["","",""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +26,17 @@ class TEDVC1: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        switch self.indexVC {
+        case 1:
+            self.txtField1.text=self.txtFieldsTitle[0]
+        case 2:
+            self.txtField1.text=self.txtFieldsTitle[1]
+        default:
+            break
+        }
     }
     
 
