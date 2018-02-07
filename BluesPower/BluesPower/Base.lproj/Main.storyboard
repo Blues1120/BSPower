@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,14 +19,14 @@
                         <viewControllerLayoutGuide type="bottom" id="OLi-Ro-Xr5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kYJ-UX-yQw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="005" translatesAutoresizingMaskIntoConstraints="NO" id="D8T-2J-sig">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dXd-P1-EL1">
-                                <rect key="frame" x="16" y="274" width="288" height="274"/>
+                                <rect key="frame" x="16" y="274" width="288" height="186"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="求kVA值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNT-WE-X0B">
                                 <rect key="frame" x="16" y="37" width="288" height="21"/>
@@ -172,14 +172,14 @@
                         <viewControllerLayoutGuide type="bottom" id="7LB-Bz-NjR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="DZL-gb-ZS4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="005" translatesAutoresizingMaskIntoConstraints="NO" id="jF4-tD-EEb">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wyO-S2-cis">
-                                <rect key="frame" x="16" y="303" width="289" height="245"/>
+                                <rect key="frame" x="16" y="303" width="289" height="157"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="求kW值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6e-xh-1lo">
                                 <rect key="frame" x="16" y="29" width="289" height="21"/>
@@ -343,32 +343,32 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-gn-wth">
-                                <rect key="frame" x="16" y="164.5" width="288" height="126.5"/>
+                                <rect key="frame" x="16" y="142.5" width="288" height="104.5"/>
                                 <state key="normal" title="已知kVA求安培值" image="未命名.002"/>
                                 <connections>
                                     <segue destination="c80-pE-gKr" kind="show" id="vPp-L9-IKK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMu-eb-A6m">
-                                <rect key="frame" x="16" y="30" width="288" height="126.5"/>
+                                <rect key="frame" x="16" y="30" width="288" height="104.5"/>
                                 <state key="normal" image="未命名.001"/>
                                 <connections>
                                     <segue destination="NwJ-ZY-R0V" kind="show" id="Nb0-nU-ui1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y70-bo-tLB">
-                                <rect key="frame" x="16" y="433.5" width="288" height="126.5"/>
+                                <rect key="frame" x="16" y="367.5" width="288" height="104.5"/>
                                 <state key="normal" title="已知kW求安培值" image="未命名.004"/>
                                 <connections>
                                     <segue destination="Ozz-kf-PRF" kind="show" id="CKK-Cq-gQj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLG-VA-23n">
-                                <rect key="frame" x="16" y="299" width="288" height="126.5"/>
+                                <rect key="frame" x="16" y="255" width="288" height="104.5"/>
                                 <state key="normal" title="已知安培求kW值" image="未命名.003"/>
                                 <connections>
                                     <segue destination="SvK-mO-WjO" kind="show" id="Vad-Z2-Ojm"/>
@@ -415,14 +415,14 @@
                         <viewControllerLayoutGuide type="bottom" id="ARB-4n-vvf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="g5K-YP-WCQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="005" translatesAutoresizingMaskIntoConstraints="NO" id="Nbg-Yz-vbJ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nng-On-7QJ">
-                                <rect key="frame" x="16" y="335" width="288" height="213"/>
+                                <rect key="frame" x="16" y="335" width="288" height="125"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="知KW求安培值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfS-9l-2y4">
                                 <rect key="frame" x="16" y="37" width="288" height="21"/>
@@ -584,14 +584,14 @@
                         <viewControllerLayoutGuide type="bottom" id="PeL-G3-eL6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aUo-j7-WXU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="005" translatesAutoresizingMaskIntoConstraints="NO" id="Wpl-24-qJf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V3w-Fk-lkQ">
-                                <rect key="frame" x="16" y="298" width="288" height="250"/>
+                                <rect key="frame" x="16" y="298" width="288" height="162"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="roundedRect" placeholder="輸入相數" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="d4r-B8-fbr">
                                 <rect key="frame" x="16" y="67" width="288" height="30"/>
